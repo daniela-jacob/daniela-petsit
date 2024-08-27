@@ -308,3 +308,89 @@ h4 {
     padding: 5rem;
     border: 5px solid #ffffff;
 }
+
+/*Mobile*/
+@media only screen and (max-width: 500px) {
+    .h1-general {
+        font-size: 24px;
+    }
+
+    .btn-index {
+        width: 15rem;
+        height: 1.5rem;
+    }
+
+    .btn-srv {
+        width: 8rem;
+        height: 1.5rem;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .parrafoHeader {
+        width: 20rem;
+        font-size: 1.2rem;
+    }
+
+    .comentario {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .boxServicios {
+        width: 18rem;
+    }
+}
+
+
+ /* Tablet */
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+    .h1-general {
+        font-size: 28px;
+    }
+
+    .btn-index {
+        width: 18rem;
+        height: 1.8rem;
+    }
+
+    .btn-srv {
+        width: 9rem;
+        height: 1.8rem;
+    }
+
+    .parrafoHeader {
+        width: 22rem;
+        font-size: 1.4rem;
+    }
+
+    .comentario {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .boxServicios {
+        width: 19rem;
+    }
+}
+
+
+/* Otros */
+@media only screen and (min-width: 961px) {
+    .h1-general {
+        font-size: 30px;
+    }
+
+    .btn-index {
+        width: 20rem;
+        height: 2rem;
+    }
+
+    .btn-srv {
+        width: 10rem;
+        height: 2rem;
+    }
+}
