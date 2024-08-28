@@ -10,7 +10,7 @@
 }
 
 body {
-    height: 100%; 
+    height: 100vh; 
 }
 
 .h1-general {
@@ -25,15 +25,22 @@ p {
 
 /*Estilos header*/
 
+.bodyheader {
+    background-image: url(../assets/fondo1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
 .header-general, .header-index {
     height: 11rem;
 }
 
 .header-index {
-    background-image: url(../assets/fondo1.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
     width: 100%;
     height: 100vh; 
     padding: 0;
@@ -42,6 +49,10 @@ p {
 .contenedor img{
     height: 150px;
     width: 150px;
+}
+
+.contenedor2 {
+    margin-left: 1rem;
 }
 
 .h2-Rs, .footer-gral {
@@ -94,29 +105,20 @@ a:hover {
 }
 
 .parrafoHeader {
-    width: 26rem;
-    font-size: 1.5rem;
+    width: 30rem;
+    font-size: 25px;
     color: #ffffff;
     line-height: 25px;
 }
 
-.btn-index, .btn-srv {
+.btn-index {
     border-radius: 0.7rem;
     background-color: #f0c4d3;
     cursor: pointer;
     font-size: 1rem;
-}
-
-.btn-index {
     width: 20rem;
     height: 2rem;
     margin-top: 1rem;
-}
-
-.btn-srv {
-    width: 10rem;
-    height: 2rem;
-    margin: 1rem;
 }
 
 /*Estilos Reseñas*/
