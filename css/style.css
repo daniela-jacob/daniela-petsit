@@ -1,7 +1,7 @@
 /*Estilos generales*/
 
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400; 
     font-style: normal;
     margin: 0;
@@ -17,6 +17,10 @@ body {
     color:#ffffff;
     font-size: 30px;
     font-weight: 400;
+}
+
+p {
+    letter-spacing: -1.2px;
 }
 
 /*Estilos header*/
@@ -155,30 +159,27 @@ a:hover {
 
 /*Estilos servicios*/
 
-.body-servicios, .body-sobremi {
+.body-servicios, .body-sobremi, .body-contacto {
     background-image: url(../assets/bg-color.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh; 
     padding: 0;
 }
 
 .boxServicios {
-    background-color: #ffe3e3;
     width: 21rem;
-    border: 5px solid #ffffff; 
-    border-radius: 1.1rem;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 1rem;
 }
 
 .boxServicios img {
     height: 23rem;
-    width: 20.4rem;
-    border: 2px solid #ffffff;
-    border-radius: 0.7rem;
+    width: 23rem;
+    border-radius: 15rem;
+    margin-bottom: 2rem;
 }
 
 .contenedorServicios {
@@ -202,8 +203,6 @@ a:hover {
 }
 
 .txt {
-    display: flex;
-    justify-content: center;
     font-size: large;
     margin-top: 5px;
     line-height: 1.5rem;
@@ -226,16 +225,6 @@ h4 {
     padding: 0 2rem;
 }
 
-.btn-srv{
-    width: 10rem;
-    height: 2rem;
-    margin: 1rem 5rem;
-    font-size: 1rem;
-    border-radius: 0.7rem;
-    background-color: #f0c4d3;
-    cursor: pointer;
-}
-
 .footer-gral {
     display: flex;
     justify-content: flex-end;
@@ -246,15 +235,6 @@ h4 {
 }
 
 /*Estilos Contacto*/
-.body-contacto {
-    background-image: url(../assets/fondo2.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100vh; 
-    padding: 0;
-}
 
 .contenedor-contacto1, .contenedor-contacto2 {
     display: flex;
@@ -265,7 +245,7 @@ h4 {
 }
 
 .caja1, .caja2, .caja3, .caja4 {
-    background-color: #ffe3e3a4;
+    background-color: #d7c7fd;
     border: 5px solid #ffffff;
     border-radius: 0.7rem;
     padding: 20px;
@@ -290,23 +270,21 @@ h4 {
     padding-top: 2rem;
 }
 
-.img-sobre-mi img, .contenedor-sobremi {
-    border-radius: 1rem;
-}
-
-.img-sobre-mi img {
-    height: 30rem;
-    width: 25rem;
-    border: 5px solid #ffffff;
-}
-
 .contenedor-sobremi {
-    background-color: #ffe3e3a4;
+    border-radius: 1rem;
+    background-color: #d7c7fd;
     width: 50rem;
     height: fit-content;
     margin: 10px;
     padding: 5rem;
-    border: 5px solid #ffffff;
+    border: 5px solid #ffffff
+}
+
+.img-circular {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 19rem;
+    object-fit: cover;
 }
 
 /*Mobile*/
