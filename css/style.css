@@ -287,6 +287,37 @@ h4 {
     object-fit: cover;
 }
 
+
+/*Estilos Galería*/
+.amigos {
+    width: auto;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.contenedor-amigos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.amigos img {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 1rem;
+    margin: 3rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #937acc;
+    margin-bottom: 16rem;
+}
+
+
 /*Mobile*/
 @media only screen and (max-width: 500px) {
     .h1-general {
