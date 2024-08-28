@@ -186,6 +186,7 @@ a:hover {
 }
 
 .boxServicios img {
+    border: 5px solid #ffffff;
     height: 23rem;
     width: 23rem;
     border-radius: 5rem;
@@ -241,7 +242,7 @@ h4 {
 }
 
 .caja1, .caja2, .caja3, .caja4 {
-    background-color: #d7c7fd;
+    background-color: #f056891f;
     border: 5px solid #ffffff;
     border-radius: 0.7rem;
     padding: 20px;
@@ -257,21 +258,23 @@ h4 {
     display: flex;
     justify-content: space-evenly;
     padding-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1.01rem;
 }
 
 .contenedor-sobremi {
     border-radius: 1rem;
-    background-color: #d7c7fd;
+    background-color: #f056891f;
     width: 50rem;
     height: fit-content;
     margin: 10px;
     margin-bottom: 10rem;
+    margin-top: 3%;
     padding: 5rem;
     border: 5px solid #ffffff
 }
 
 .img-circular {
+    border: 5px solid #ffffff;
     width: 35rem;
     height: 35rem;
     border-radius: 19rem;
@@ -295,6 +298,7 @@ h4 {
 }
 
 .amigos img {
+    border: 5px solid #ffffff;
     height: 17rem;
     width: 17rem;
     border-radius: 1rem;
