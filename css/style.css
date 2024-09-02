@@ -163,8 +163,8 @@ a:hover {
 .boxServicios img {
     border: 2px solid #ffffff;
     height: 23rem;
-    width: 23rem;
-    border-radius: 5rem;
+    width: 21rem;
+    border-radius: 1rem;
     margin-bottom: 3rem;
 }
 
