@@ -150,8 +150,8 @@ a:hover {
 
 /*Estilos servicios*/
 
-.body-servicios, .body-sobremi, .body-contacto {
-    background-image: url(../assets/bg-celeste.png);
+.body-gral {
+    background-image: url(../assets/bg-end.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -222,7 +222,7 @@ h4 {
 }
 
 .caja1, .caja2, .caja3, .caja4 {
-    background-color: #fdf3dd77;
+    background-color: #e4d1aabe;
     border-radius: 1rem;
     text-align: center;
     font-size: 20px;
