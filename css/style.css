@@ -1,5 +1,19 @@
 /*Estilos generales*/
 
+.body-general
+{
+    background-color: #DEDBD2;
+}
+
+.nav-link {
+    color: #4A5759; 
+}
+
+ .nav-link:hover {
+    color: #EDAFB8;
+}
+
+
 * {
     font-family: "Montserrat", sans-serif;
     font-weight: 400; 
@@ -17,7 +31,14 @@ p {
     letter-spacing: -1.2px;
 }
 
+.body-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 footer {
+    align-self: flex-end;
     font-size: 16px;
     color: #000000;
     font-weight: 300;
@@ -28,32 +49,14 @@ footer {
 .logo-header {
     height: 150px;
     width: 150px;
+    margin-left: 2rem;
 }
 
 .h1-general {
     font-size: 30px;
     color: #ffffff;
     font-weight: 500;
-    margin-bottom: 1rem;
     text-align: start;
-}
-
-.menu-header {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu-header li {
-    display: inline-block;
-    margin-right: 2rem;
-}
-
-.menu-header a {
-    font-size: 18px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .menu-header a:hover {
@@ -65,7 +68,7 @@ footer {
     color: #000000;
     border: 1px solid #000000;
     padding: 10px;
-    margin-left: 1rem;
+    margin-left: 2rem;
     border-radius: 10px;
 }
 
@@ -123,12 +126,12 @@ a:hover {
     height: 70vh;
 }
 
-.parrafoHeader {
+.p-index {
     width: 30rem;
     font-size: 25px;
     color: #ffffff;
-    line-height: 25px;
-    margin-left: 1rem;
+    line-height: 30px;
+    margin-left: 2rem;
 }
 
 .btn-index {
