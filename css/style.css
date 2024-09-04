@@ -78,18 +78,17 @@ footer {
     background-color: #B0C4B1;
 }
 
-.cont-index {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-}
-
 .p-index {
     width: 30rem;
     font-size: 22px;
     color: #4A5759;
     line-height: 30px;
     margin-left: 2rem;
+}
+
+.img-index {
+    height: 30rem;
+    width: 50rem;
 }
 
 /*Estilos servicios*/
