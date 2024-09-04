@@ -93,19 +93,8 @@ footer {
 
 /*Estilos servicios*/
 
-.body-gral {
-    background-image: url(../assets/bg-end.png);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 100vh; 
-    padding: 0;
-}
-
 .boxServicios {
-    width: 21rem;
-    text-align: center;
+    width: 20rem;
     margin: 1rem 1rem;
 }
 
@@ -117,41 +106,20 @@ footer {
     margin-bottom: 3rem;
 }
 
-.contenedorServicios {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5rem;
+.t-servicio {
+    font-size: 20px;
+    font-weight: bolder;
 }
 
-.titulo {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-    font-size: x-large;
+.p-servicio {
+    font-size: 20px;
+    color: #EDAFB8;
     font-weight: bolder;
 }
 
 .txt {
-    font-size: large;
+    font-size: 18px;
     margin-top: 5px;
-    line-height: 1.5rem;
-}
-
-.precio {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    font-size: 20px;
-    font-weight: bold;
-    color: #f05689;
-}
-
-h4 {
-    font-size: small;
-    display: flex;
-    justify-content: end;
-    margin-top: 3rem;
-    padding: 0 2rem;
 }
 
 /*Estilos Contacto*/
