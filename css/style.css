@@ -95,7 +95,7 @@ footer {
 
 .boxServicios {
     width: 20rem;
-    margin: 1rem 1rem;
+    margin: 1rem;
 }
 
 .boxServicios img {
@@ -108,7 +108,7 @@ footer {
 
 .t-servicio {
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .p-servicio {
@@ -119,7 +119,6 @@ footer {
 
 .txt {
     font-size: 18px;
-    margin-top: 5px;
 }
 
 /*Estilos Contacto*/
