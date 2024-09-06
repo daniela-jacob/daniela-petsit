@@ -17,7 +17,7 @@ p {
     color: #4A5759;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     color: #4A5759;
 }
 
@@ -39,28 +39,15 @@ footer {
 
 /*Estilos sobre mi*/
 
-.main-1 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.about-1 {
-    display: flex;
-    width: 30rem;
-    height: 35rem;
-}
-
-.about-2 {
+.about-txt {
     border-radius: 1rem;
     background-color: #ffffff46;
-    width: 50rem;
-    height: 35rem;
-    padding: 5rem;
+    padding: 2rem;
     border: 2px solid #ffffff;
 }
 
 .img-about {
-    object-fit: cover;
+    max-width: 80%;
 }
 
 /*Estilos index*/
@@ -94,16 +81,17 @@ footer {
 /*Estilos servicios*/
 
 .boxServicios {
-    width: 20rem;
-    margin: 1rem;
+    width: 23rem;
 }
 
 .boxServicios img {
-    border: 2px solid #ffffff;
-    height: 23rem;
+    height: 20rem;
     width: 21rem;
-    border-radius: 1rem;
-    margin-bottom: 3rem;
+}
+
+.boxServicios-content {
+    background-color:#ffffff;
+    padding: 1rem;
 }
 
 .t-servicio {
@@ -124,9 +112,6 @@ footer {
 /*Estilos Contacto*/
 
 .contenedor-contacto1, .contenedor-contacto2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 2rem;
     margin: 2rem;
 }
@@ -143,7 +128,7 @@ footer {
 
 .cajas {
     color: #f05689;
-    font-size: large;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -155,29 +140,15 @@ footer {
 
 /*Estilos Galería*/
 .amigos {
-    width: auto;
-    max-width: 19rem;
-    height: auto;
-    max-height: 23rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
 } 
 
-.contenedor-amigos {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .amigos img {
-    height: 20rem;
-    width: 17rem;
-    margin-top: 1rem;
-    margin: 1rem;
+    height: auto;
+    max-width: 100%;
 }
 
 h3 {
     font-weight: bold;
     font-size: 30px;
-    margin-top: 1.5rem;
 }
