@@ -79,16 +79,16 @@ footer {
 }
 
 .p-index {
-    width: 30rem;
-    font-size: 22px;
+    font-size: 22px; 
     color: #4A5759;
-    line-height: 30px;
+    line-height: 30px; 
     margin-left: 2rem;
+    max-width: 100%;
 }
 
 .img-index {
-    height: 30rem;
-    width: 50rem;
+    height: auto;
+    max-width: 100%;
 }
 
 /*Estilos servicios*/
