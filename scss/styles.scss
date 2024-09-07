@@ -57,10 +57,6 @@ header {
     }
 }
 
-.img-about {
-    max-width: 80%;
-}
-
 /*Boton*/
 
 .boton {
@@ -80,18 +76,19 @@ header {
 .img-index {
     height: auto;
     max-width: 100%;
+    margin: 1rem;
 }
 
 /* Sobre mi*/
 
 .about-txt {
-    background-color: #ffffff46;
+    background-color:  #ffffff46;
     border: 2px solid #FFFFFF;
     border-radius: 1rem;
     padding: 1rem;
 }
 
-.img-about { 
+.about-1 { 
     max-width: 80%;
 }
 
