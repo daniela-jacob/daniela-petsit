@@ -34,10 +34,6 @@ header nav .nav-link:hover {
   color: #B0C4B1;
 }
 
-.img-about {
-  max-width: 80%;
-}
-
 /*Boton*/
 .boton {
   background-color: #DEDBD2;
@@ -63,6 +59,20 @@ header nav .nav-link:hover {
 .img-index {
   height: auto;
   max-width: 100%;
+  margin: 1rem;
+}
+
+/* Sobre mi*/
+.about-txt {
+  background-color: rgba(255, 255, 255, 0.2745098039);
+  border: 2px solid #FFFFFF;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.img-about {
+  height: auto;
+  max-width: 100%;
 }
 
 /*Servicios*/
@@ -76,7 +86,7 @@ img {
 }
 
 .boxServicios-content {
-  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.2745098039);
   padding: 1rem;
 }
 

@@ -1,6 +1,6 @@
 /*Variables*/
 
-$colors: #EDAFB8, #F7E1D7, #DEDBD2, #B0C4B1, #4A5759;
+$colors: #EDAFB8, #F7E1D7, #DEDBD2, #B0C4B1, #4A5759, #ffffff46;
 
 
 /*Mixin */
@@ -82,14 +82,15 @@ header {
 /* Sobre mi*/
 
 .about-txt {
-    background-color:  #ffffff46;
+    background-color: nth($colors, 6);
     border: 2px solid #FFFFFF;
     border-radius: 1rem;
     padding: 1rem;
 }
 
-.about-1 { 
-    max-width: 80%;
+.img-about { 
+    height: auto;
+    max-width: 100%;
 }
 
 /*Servicios*/
@@ -104,7 +105,7 @@ img {
 }
 
 .boxServicios-content {
-    background-color: #FFFFFF;
+    background-color: nth($colors, 6);
     padding: 1rem;
 }
 
