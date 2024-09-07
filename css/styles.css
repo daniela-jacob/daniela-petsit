@@ -1,3 +1,136 @@
+/*Variables*/
+/*Mixin */
+/*Estilos Generales*/
+body {
+  background-color: #F7E1D7;
+  height: 100%;
+}
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  color: #4A5759;
+}
+
+h1, h2, h3 {
+  color: #4A5759;
+}
+
+footer {
+  font-size: 16px;
+  color: #4A5759;
+  font-weight: 400;
+}
+
+/*Header con nesting*/
+header nav .nav-link {
+  color: #4A5759;
+}
+header nav .nav-link:hover {
+  color: #B0C4B1;
+}
+
+.img-about {
+  max-width: 80%;
+}
+
+/*Boton*/
+.boton {
+  background-color: #DEDBD2;
+  color: #4A5759;
+  border: 1px solid #4A5759;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 2rem;
+}
+.boton:hover {
+  background-color: #B0C4B1;
+}
+
+/*Index*/
+.p-index {
+  font-size: 22px;
+  color: #4A5759;
+  line-height: 30px;
+  margin-left: 2rem;
+  max-width: 100%;
+}
+
+.img-index {
+  height: auto;
+  max-width: 100%;
+}
+
+/*Servicios*/
+.boxServicios {
+  width: 23rem;
+}
+
+img {
+  height: 20rem;
+  width: 21rem;
+}
+
+.boxServicios-content {
+  background-color: #FFFFFF;
+  padding: 1rem;
+}
+
+.t-servicio {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.p-servicio {
+  font-size: 20px;
+  color: #EDAFB8;
+  font-weight: bolder;
+}
+
+/*Galeria*/
+.amigos {
+  text-align: center;
+}
+.amigos img {
+  height: auto;
+  max-width: 100%;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*Contacto*/
+.contenedor-contacto1, .contenedor-contacto2 {
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.caja1, .caja2, .caja3, .caja4 {
+  background-color: rgba(255, 255, 255, 0.2745098039);
+  border: 2px solid #FFFFFF;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 20px;
+  width: 250px;
+  height: 290px;
+}
+
+.cajas {
+  color: #EDAFB8;
+  font-style: 18px;
+  font-weight: bold;
+}
+
+.iconos {
+  height: 100px;
+  width: 100px;
+  margin: 3rem;
+}
 
 /*# sourceMappingURL=styles.css.map */

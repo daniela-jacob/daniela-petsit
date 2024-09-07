@@ -5,12 +5,13 @@ $colors: #EDAFB8, #F7E1D7, #DEDBD2, #B0C4B1, #4A5759;
 
 /*Mixin */
 
-@mixin boton ($colors) {
+@mixin boton-style($colors) {
     background-color: nth($colors, 3);
-    color: nth($colors, 3);
+    color: nth($colors, 5);
     border: 1px solid nth($colors, 5);
     padding: 10px;
     border-radius: 10px;
+    margin-left: 2rem;
     &:hover {
         background-color: nth($colors, 4);
     }
@@ -63,15 +64,14 @@ header {
 /*Boton*/
 
 .boton {
-    @include boton (nth ($colors, 3) , ($colors, 5));
-    margin-left: 2rem;
+    @include boton-style($colors);
 }
 
 /*Index*/
 
 .p-index {
     font-size: 22px;
-    color: nth($colores, 5);
+    color: nth($colors, 5);
     line-height: 30px;
     margin-left: 2rem;
     max-width: 100%;
